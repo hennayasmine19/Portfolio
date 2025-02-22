@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import pic from "src\WhatsApp Image 2025-02-22 at 15.38.18_72a79e71.jpg";
 
 const textVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -75,7 +76,7 @@ export function About() {
               }}
             />
             <img
-              src="src\WhatsApp Image 2025-02-22 at 15.38.18_72a79e71.jpg"
+              src={pic}
               alt="Professional headshot"
               className="rounded-full w-full h-full object-cover shadow-xl relative z-10"
             />
