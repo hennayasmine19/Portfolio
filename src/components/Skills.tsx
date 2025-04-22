@@ -50,7 +50,8 @@ const skills = [
       'Java',
       'MATLAB',
       'Jupyter Notebook',
-      'PyCharm'
+      'PyCharm',
+       'Git & GitHub'
     ],
     icon: Code
   },
